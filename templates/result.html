@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>{{ data.stock }}</h1>
+
+    <p>Fundamental: {{ data.fundamental }}</p>
+    <p>Technical: {{ data.technical }}</p>
+    <p>Smart Money: {{ data.smart_money }}</p>
+    <p>Macro: {{ data.macro }}</p>
+    <p>Sentiment: {{ data.sentiment }}</p>
+
+    <h2>Final Score: {{ data.final_score }}</h2>
+    <h2>Verdict: {{ data.verdict }}</h2>
+
+    <a href="/">Back</a>
+</div>
+</body>
+</html>
